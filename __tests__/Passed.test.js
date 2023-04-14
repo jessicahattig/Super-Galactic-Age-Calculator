@@ -8,9 +8,10 @@ describe('YearsPassed', () => {
   test('should correctly read starting age', () => {
     expect(yearspassed).toEqual();
   });
+
+  test('should correctly')
 });
 
-test('should correctly')
 
 //-------Galactic year multipliers-------
 //EARTH------------------------------------
