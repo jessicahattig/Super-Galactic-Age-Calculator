@@ -1,16 +1,18 @@
 describe('YearsPassed', () => {
   let yearspassed;
 
-// beforeEach(() => {
-//   yearspassed = new GalaticYearsPassed(43);
-// });
+beforeEach(() => {
+yearspassed = new GalaticYearsPassed(13);
+});
 
   test('should correctly read human starting age', () => {
-    expect(yearspassed).toEqual();
+    expect(yearspassed).toEqual(43);
   });
 
 
-test('should correctly')
+test('should correctly convert human years to Earth years', () => {
+  expect(yearspassed).
+})
 });
 // 
 

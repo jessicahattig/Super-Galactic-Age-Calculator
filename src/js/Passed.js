@@ -1,11 +1,12 @@
-export default class YearsPassed {
-  constructor(earth, mercury, venus, jupitar) {
-    this.earth = earth;
-    this.mercury = mercury;
-    this.venus = venus;
-    this.jupitar = jupitar;
+// export default class YearsPassed {
+//   constructor(earth) {
+//     this.earth = earth;
+//   }
 
-}
+//   getGalaticYears() {
+//     return this.earth
+//   }
+// }
 
 
 
