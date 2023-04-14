@@ -1,3 +1,14 @@
+describe('YearsPassed', () => {
+  let yearspassed;
+
+  test('should correctly read starting age', () => {
+    expect(yearspassed).toEqual(age);
+  })
+})
+
+
+
+
 // import Rectangle from '../src/js/rectangle.js';
 
 // describe('Rectangle', () => {
