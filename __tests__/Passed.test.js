@@ -1,17 +1,26 @@
-// import EarthYears from '../src/js/Passed.js';
+import EarthYears from '../src/js/Passed.js';
 
 describe('EarthYears', () => {
-  let yearspassed = 0.3023255814
+  let yearspassed;
   
+  beforeEach(() => {
+    yearspassed = new EarthYears(0.3023255814);
+});
+
   test('should have 1 human year equal to 0.3023255814 Earth year.', () => {
-    expect(yearspassed).toEqual(0.3023255814);
+    expect(yearspassed.earth).toEqual(0.3023255814);
   });
 });
 
-
- // beforeEach(() => {
-  //   yearspassed = new EarthYears(0.3023255814);
+  // test('should calculate inputted human year to Earth years', () =>{
+  //   expect(yearspassed*0.3023255814).toEqual(EarthYears)
   // });
+
+
+
+
+
+ 
 
 
   // test('should correctly convert 1 human year to Earth years', () => {
