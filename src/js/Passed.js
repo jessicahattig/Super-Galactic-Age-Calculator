@@ -1,9 +1,8 @@
-// export default class YearsPassed {
+// export default class EarthYears {
 //   constructor(earth) {
 //     this.earth = earth;
 //   }
-
-//   getGalaticYears() {
+//   getEarthCalc() {
 //     return this.earth
 //   }
 // }

@@ -2,16 +2,16 @@ describe('EarthYears', () => {
   let yearspassed;
   
 //   beforeEach(() => {
-//     yearspassed = new EarthYears();
+//     yearspassed = new EarthYears(0.3023255814);
 // });
 
-  test('should correctly calculate Earth years passed', () => {
+  test('should correctly convert 1 human year to Earth year.', () => {
     expect(yearspassed).toEqual();
   });
 });
   
   // test('should correctly convert human years to Earth years', () => {
-  //   expect(yearspassed).
+  //   expect((yearspassed.toEqual)*(0.3023255814)).toEqual(13);
   // });
 
 // 
@@ -19,8 +19,6 @@ describe('EarthYears', () => {
 
 //-------Galactic year multipliers-------
 //EARTH------------------------------------
-//43 human years / 13 Earth years = 3.3076923077 human years per Earth year
-//
 // 13 Earth years /43 human years = 0.3023255814 Earth years per human year
 
 //MERCURY--------------------------------
