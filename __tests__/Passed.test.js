@@ -10,8 +10,25 @@ describe('YearsPassed', () => {
   });
 });
 
+test('should correctly')
+
+//-------Galactic year multipliers-------
+//43 human years / 13 Earth years = 3.3076923077 human years per Earth year
+
+// 43 human years / 54.16 Mercury years =
+// 0.79394387 huamn years per Mercury Year
+
+// 43 human years / 20.96 Venus years = 2.0515267176 human years per Venus year.
+
+// 43 human years / 6.91 Mars years = 6.2228654124 human years per Mars year.
+
+// 43 human years / 1.09 Jupiter years = 39.4495412844 human years per Jupitar year.
 
 
+
+
+
+// -------------------- Template Example-----
 
 // import Rectangle from '../src/js/rectangle.js';
 
