@@ -10,12 +10,10 @@ describe('EarthYears', () => {
   test('should have 1 human year equal to 0.3023255814 Earth year.', () => {
     expect(yearspassed).toEqual(0.3023255814);
   });
+  test('should correctly convert 1 human year to Earth years', () => {
+    expect(yearspassed.EarthYears).toEqual(0.3023255814); 
+  });
 });
-  
-  // test('should correctly convert 1 human year to Earth years', () => {
-  //   expect(yearspassed.EarthYears).toEqual(0.3023255814); 
-  // });
-
 // 
 
 
