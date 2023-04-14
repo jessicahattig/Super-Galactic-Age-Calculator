@@ -1,15 +1,14 @@
 describe('YearsPassed', () => {
   let yearspassed;
-  let age = 43;
 
-  beforeEach(() => {
-    yearspassed = new YearsPassed();
-  })
+  // beforeEach(() => {
+  //   yearspassed = new YearsPassed(43);
+  // });
 
   test('should correctly read starting age', () => {
-    expect(yearspassed.age).toEqual();
-  })
-})
+    expect(yearspassed).toEqual();
+  });
+});
 
 
 

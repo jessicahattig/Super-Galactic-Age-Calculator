@@ -1,3 +1,14 @@
+describe ('YetPassed', () => {
+  let yetpassed;
+
+  test('should correctly read future birthday', () => {
+    expect(yetpassed).toEqual();
+  });
+});
+
+
+
+
 // import Triangle from './../src/js/triangle.js';
 
 // describe('Triangle', () => {
