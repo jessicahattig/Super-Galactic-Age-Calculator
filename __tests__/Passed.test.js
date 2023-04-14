@@ -1,16 +1,18 @@
 describe('YearsPassed', () => {
   let yearspassed;
 
-  // beforeEach(() => {
-  //   yearspassed = new YearsPassed(43);
-  // });
+// beforeEach(() => {
+//   yearspassed = new GalaticYearsPassed(43);
+// });
 
-  test('should correctly read starting age', () => {
+  test('should correctly read human starting age', () => {
     expect(yearspassed).toEqual();
   });
 
-  test('should correctly')
+
+test('should correctly')
 });
+// 
 
 
 //-------Galactic year multipliers-------
