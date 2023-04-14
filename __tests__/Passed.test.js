@@ -5,7 +5,7 @@ describe('EarthYears', () => {
 //     yearspassed = new EarthYears(0.3023255814);
 // });
 
-  test('should correctly convert 1 human year to Earth year.', () => {
+  test('should have 1 human year equal to Earth year.', () => {
     expect(yearspassed).toEqual();
   });
 });
